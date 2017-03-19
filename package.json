@@ -1,0 +1,41 @@
+{
+  "name": "german-administrative-areas",
+  "description": "German administrative areas as GeoJSON",
+  "version": "0.0.0",
+  "keywords": [
+  	"german",
+  	"germany",
+  	"administrative",
+  	"area",
+  	"geojson",
+  	"deutschland",
+  	"admin",
+  	"verwaltung",
+  	"grenzen",
+  	"länder",
+  	"bezirke",
+  	"gemeinden"
+  ],
+  "author": "Julius Tens <mail@juliustens.de>",
+  "homepage": "https://github.com/juliuste/german-administrative-areas",
+  "repository": "juliuste/german-administrative-areas",
+  "bugs": "https://github.com/juliuste/german-administrative-areas/issues",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "*.geo.json"
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+    "tape": "^4.6.3"
+  },
+  "scripts": {
+    "test": "node test.js",
+    "prepublish": "npm test"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "license": "MIT"
+}
