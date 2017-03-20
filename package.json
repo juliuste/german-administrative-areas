@@ -27,6 +27,7 @@
   ],
   "dependencies": {},
   "devDependencies": {
+    "geojson-is-valid": "0.0.4",
     "lodash.filter": "^4.6.0",
     "tape": "^4.6.3"
   },
