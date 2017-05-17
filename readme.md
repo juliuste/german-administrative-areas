@@ -18,18 +18,18 @@ npm install --save german-administrative-areas
 
 The module contains seperate lists of GeoJSON objects for the following federal and administrative layers:
 - `staat` - Federal Republic of Germany
-- `länder` - states (e. g. Hessen, Thüringen, Bavaria, …)
+- `laender` - states (e. g. Hessen, Thüringen, Bavaria, …)
 - `regierungsbezirke` - administrative districts (e. g. Regierungsbezirk Münster)
 - `verwaltungsgemeinschaften` - association of administrations / municipalities
 - `gemeinden` - municipalities
 
 You can either require the entire module (which will take a few seconds) to access all layers:
 
-```js 
+```js
 const areas = require('german-administrative-areas')
 
 console.log(areas.verwaltungsgemeinschaften) // list of GeoJSON objects
-console.log(areas['länder'])
+console.log(areas['laender'])
 ```
 
 Or you require specific layers in case you don't need all of them:

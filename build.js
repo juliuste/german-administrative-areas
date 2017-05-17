@@ -3,7 +3,7 @@
 const fs = require('fs')
 const filter = require('lodash.filter')
 
-const ebenen = ['staat', 'länder', 'regierungsbezirke', 'kreise', 'verwaltungsgemeinschaften', 'gemeinden']
+const ebenen = ['staat', 'laender', 'regierungsbezirke', 'kreise', 'verwaltungsgemeinschaften', 'gemeinden']
 
 const collectRS = (e) => {
 	const rs = []
