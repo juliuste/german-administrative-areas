@@ -1,5 +1,7 @@
 # german-administrative-areas
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/juliuste/german-administrative-areas.svg)](https://greenkeeper.io/)
+
 German administrative areas as WGS84 GeoJSON. Data provided by the [Federal Agency for Cartography and Geodesy](http://www.geodatenzentrum.de/geodaten/gdz_rahmen.gdz_div?gdz_spr=deu&gdz_akt_zeile=5&gdz_anz_zeile=0&gdz_user_id=0), subject to [this ordinance](http://www.geodatenzentrum.de/docpdf/geonutzv.pdf).
 
 [![npm version](https://img.shields.io/npm/v/german-administrative-areas.svg)](https://www.npmjs.com/package/german-administrative-areas)
