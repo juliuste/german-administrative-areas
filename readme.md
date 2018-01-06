@@ -4,9 +4,11 @@ German administrative areas as WGS84 GeoJSON. Data provided by the [Federal Agen
 
 [![npm version](https://img.shields.io/npm/v/german-administrative-areas.svg)](https://www.npmjs.com/package/german-administrative-areas)
 [![Build Status](https://travis-ci.org/juliuste/german-administrative-areas.svg?branch=master)](https://travis-ci.org/juliuste/german-administrative-areas)
+[![Greenkeeper badge](https://badges.greenkeeper.io/juliuste/german-administrative-areas.svg)](https://greenkeeper.io/)
 [![dependency status](https://img.shields.io/david/juliuste/german-administrative-areas.svg)](https://david-dm.org/juliuste/german-administrative-areas)
 [![dev dependency status](https://img.shields.io/david/dev/juliuste/german-administrative-areas.svg)](https://david-dm.org/juliuste/german-administrative-areas#info=devDependencies)
 [![license](https://img.shields.io/github/license/juliuste/german-administrative-areas.svg?style=flat)](LICENSE)
+[![chat on gitter](https://badges.gitter.im/juliuste.svg)](https://gitter.im/juliuste)
 
 ## Installation
 
