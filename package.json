@@ -29,7 +29,7 @@
   "devDependencies": {
     "geojson-is-valid": "0.0.4",
     "lodash.filter": "^4.6.0",
-    "tape": "^4.6.3"
+    "tape": "^5.0.0"
   },
   "scripts": {
     "test": "node test.js",
