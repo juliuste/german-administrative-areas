@@ -1,7 +1,7 @@
 {
 	"name": "german-administrative-areas",
 	"description": "German administrative areas as GeoJSON.",
-	"version": "0.2.0",
+	"version": "1.0.0",
 	"keywords": [
 		"german",
 		"germany",
