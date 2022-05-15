@@ -1,42 +1,56 @@
 {
-  "name": "german-administrative-areas",
-  "description": "German administrative areas as GeoJSON",
-  "version": "0.2.0",
-  "keywords": [
-    "german",
-    "germany",
-    "administrative",
-    "area",
-    "geojson",
-    "deutschland",
-    "admin",
-    "verwaltung",
-    "grenzen",
-    "länder",
-    "bezirke",
-    "gemeinden"
-  ],
-  "author": "Julius Tens <mail@juliustens.eu>",
-  "homepage": "https://github.com/juliuste/german-administrative-areas",
-  "repository": "juliuste/german-administrative-areas",
-  "bugs": "https://github.com/juliuste/german-administrative-areas/issues",
-  "main": "index.js",
-  "files": [
-    "index.js",
-    "*.geo.json"
-  ],
-  "dependencies": {},
-  "devDependencies": {
-    "geojson-is-valid": "0.0.4",
-    "lodash.filter": "^4.6.0",
-    "tape": "^4.6.3"
-  },
-  "scripts": {
-    "test": "node test.js",
-    "prepare": "npm test"
-  },
-  "engines": {
-    "node": ">=6"
-  },
-  "license": "ISC"
+	"name": "german-administrative-areas",
+	"description": "German administrative areas as GeoJSON.",
+	"version": "0.2.0",
+	"keywords": [
+		"german",
+		"germany",
+		"states",
+		"regions",
+		"counties",
+		"districts",
+		"administrative",
+		"geojson",
+		"deutschland",
+		"admin",
+		"verwaltung",
+		"grenzen",
+		"länder",
+		"kreise",
+		"bezirke",
+		"gemeinden"
+	],
+	"author": "Julius Tens <mail@juliustens.eu>",
+	"homepage": "https://github.com/juliuste/german-administrative-areas",
+	"repository": "juliuste/german-administrative-areas",
+	"bugs": "https://github.com/juliuste/german-administrative-areas/issues",
+	"main": "src/index.js",
+	"files": [
+		"src/*",
+		"!src/*.test.js",
+		"*.geo.json"
+	],
+	"devDependencies": {
+		"ava": "^4.2.0",
+		"depcheck": "^1.4.3",
+		"eslint": "^8.15.0",
+		"eslint-config-standard": "^17.0.0",
+		"eslint-plugin-import": "^2.26.0",
+		"eslint-plugin-n": "^15.2.0",
+		"eslint-plugin-promise": "^6.0.0",
+		"geojson-validation": "^1.0.2",
+		"lodash": "^4.17.21"
+	},
+	"scripts": {
+		"build": "./build/index.sh",
+		"check-deps": "depcheck",
+		"lint": "eslint src build",
+		"fix": "npm run lint -- --fix",
+		"prepublishOnly": "npm test",
+		"test": "npm run lint && npm run check-deps && ava"
+	},
+	"engines": {
+		"node": ">=14"
+	},
+	"license": "SEE LICENSE IN license"
 }
